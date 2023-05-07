@@ -6,11 +6,7 @@ import os
 import logging
 import subprocess
 
-<<<<<<< HEAD
 down_path =  os.path.join(os.path.expanduser("~"), "Music\\tidal\\")
-=======
-down_path =  os.path.join(os.path.expanduser("~"), "\\Music\\tidal\\")
->>>>>>> 7697f2a312d1943e6724a91ceba04f7e150bdd89
 
 parser = argparse.ArgumentParser(
                     prog='Convert rekordbox to tidal')
