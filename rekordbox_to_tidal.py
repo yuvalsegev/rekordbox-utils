@@ -6,7 +6,11 @@ import os
 import logging
 import subprocess
 
+<<<<<<< HEAD
 down_path =  os.path.join(os.path.expanduser("~"), "Music\\tidal\\")
+=======
+down_path =  os.path.join(os.path.expanduser("~"), "\\Music\\tidal\\")
+>>>>>>> 7697f2a312d1943e6724a91ceba04f7e150bdd89
 
 parser = argparse.ArgumentParser(
                     prog='Convert rekordbox to tidal')
@@ -43,6 +47,11 @@ print(login_details)
 with open(r'C:\Users\yuval\tidal_creds.yaml', 'w') as file:
     documents = yaml.dump(login_details, file)
 
+<<<<<<< HEAD
+=======
+url = r"C:\Users\yuval\Downloads\2023-04-25.m3u8"
+
+>>>>>>> 7697f2a312d1943e6724a91ceba04f7e150bdd89
 tidal_tracks = []
 
 with open(args.file, "rb") as f:

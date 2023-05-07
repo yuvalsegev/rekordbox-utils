@@ -48,8 +48,13 @@ tidal_tracks = []
 import xml.etree.ElementTree as ET
 
 # down_path = "C:/users/yuval/Music/tidal/"
+<<<<<<< HEAD
 down_path =  os.path.join(os.path.expanduser("~"), "Music\\tidal\\")
 print(down_path)
+=======
+down_path =  os.path.join(os.path.expanduser("~"), "\\Music\\tidal\\")
+
+>>>>>>> 7697f2a312d1943e6724a91ceba04f7e150bdd89
 import subprocess
 
 def download_track(track_id):
